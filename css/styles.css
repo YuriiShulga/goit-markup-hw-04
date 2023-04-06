@@ -451,6 +451,13 @@ body {
 
 .footer-container {
   display: flex;
+  /* flex-direction: column; */
+}
+
+.footer-slogan {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -483,12 +490,6 @@ body {
   gap: 16px;
 }
 
-.text {
-}
-/* .social-list {
-} */
-.list {
-}
 .soc-item {
   width: 40px;
   height: 40px;
